@@ -1,0 +1,43 @@
+html {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+}
+
+.title {
+  color: #005678;
+  text-align: center;
+  font-weight: bold;
+}
+
+.subtitle {
+  color: dodgerblue;
+  text-align: center;
+  font-weight: 300;
+}
+
+.counter {
+  color: #2e67a3;
+  text-align: center;
+  font-weight: 700;
+  font-size: 100px;
+}
+
+.counter__button-container {
+  text-align: center;
+  font-size: 40px;
+}
+
+.counter__button {
+  font-size: 20px;
+  border-radius: 10px;
+  background-color: #aed9f9;
+  padding: 10px;
+  border-color: #aed9f9;
+  color: #184d86;
+  transition: all 0.3s ease-in-out;
+}
+
+.counter__button:hover {
+  background-color: dodgerblue;
+  color: #aed9f9;
+}
